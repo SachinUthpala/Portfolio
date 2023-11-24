@@ -6,18 +6,30 @@
     z-index: 99;
     opacity: 1;
     transform: none;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
     transition: all 300ms ease;
+    background-color: #fff;
+    
 
     .container{
         position: relative;
         justify-content: space-between;
         font-weight: 500;
+        
 
         .name{
             font-size: 1.5rem;
             font-weight: 500;
+        }
+
+        .menuIcons{
+            @media (max-width : $sm),
+                (max-width : $md){
+                    display: block;
+                }
+            display: none;
         }
 
         .menu{
