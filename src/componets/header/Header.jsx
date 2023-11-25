@@ -1,15 +1,17 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 import css from './Header.module.scss'
 import {BiMenuAltRight, BiPhoneCall} from 'react-icons/bi'
 import {motion} from 'framer-motion'
 import { getMenuStyles, headerVariants } from '../../utils/motion'
 import useHeaderShadow from '../../hooks/useHeaderShadow'
+import useOutsideAlerter from '../../hooks/useOutsideAlerter'
 
 
 const Header = () => {
 
   const [menuOpen , setMenuOpen] = useState(false)
   const headerShadow = useHeaderShadow()
+  
   return (
     <motion.div 
     initial = "hidden"
@@ -23,13 +25,14 @@ const Header = () => {
             <div className={css.name}>
                 Sachin
             </div>
-            <ul 
+            <ul
+             
             style={getMenuStyles(menuOpen)}
             className={`flexCenter ${css.menu}`}>
-                <li><a href="">Services</a></li>
-                <li><a href="">Experience</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Testimonials</a></li>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#experties">Services</a></li>
+                <li><a href="#work">Experience</a></li>
+                <li><a href="#projects">Projets</a></li>
                 <li className={`flexCenter ${css.phone}`}>
                     <p>
                         0762712200

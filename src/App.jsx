@@ -1,4 +1,6 @@
 import Experts from "./componets/Experts/Experts";
+import Footer from "./componets/Footer/Footer";
+import Portfolio from "./componets/Portfolio/Portfolio";
 import Works from "./componets/Works/Works";
 import Header from "./componets/header/Header";
 import Hero from "./componets/hero/Hero";
@@ -10,7 +12,8 @@ const App = () => {
     <Hero/>
    <Experts/>
    <Works/>
-   
+   <Portfolio/>
+   <Footer/>
   </div>
 };
 
