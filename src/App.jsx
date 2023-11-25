@@ -10,7 +10,8 @@ const App = () => {
     <Hero/>
    <Experts/>
    <Works/>
-  </div>;
+   
+  </div>
 };
 
 export default App;

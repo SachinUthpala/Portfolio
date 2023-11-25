@@ -29,25 +29,25 @@ export const WhatDoIHelp = [
 
 export const workExp = [
   {
-    place: "Self-Employed, Brisbane",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Visual Designer",
+    place: "HTML CSS JS PHP",
+    tenure: "Aug 2021 - Dec 2021",
+    role: "Front-End & Back-End Developing",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Desing a Online Food Delivery System By Using HTML,CSS,JS and PHP. I use MySql Database to store data",
   },
   {
-    place: "New Man Services",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "UI/UX Designer",
+    place: "JAVA ",
+    tenure: "Jan 2022 - Aug 2022",
+    role: "Front-End & Back-End Developing",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Design a Online Ticket Reservation system by using JAVA for Railway. I used Sql Workbecnch as the database",
   },
   {
-    place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
+    place: "REACT JS",
+    tenure: "Aug 2023 - Dec 2023",
+    role: "Front-End & Back-End Developing",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Design a Hotel Reservation System by using React js. I used Mongo DB as the the data base.",
   },
 ];
 
