@@ -31,7 +31,8 @@ const Hero = () => {
             <motion.span 
             variants={fadeIn("left","tween",0.2,1)}
             className='secondaryText'>
-                I'm front-end developer <br />
+                I'm front-end  &<br />
+                Back-end developer <br />
                 I love what I do..
             </motion.span>
         </div>
