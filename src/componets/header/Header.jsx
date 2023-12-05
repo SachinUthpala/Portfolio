@@ -33,6 +33,7 @@ const Header = () => {
                 <li><a href="#experties">Services</a></li>
                 <li><a href="#work">Experience</a></li>
                 <li><a href="#projects">Projets</a></li>
+                <li><a href="#certficates">Certificates</a></li>
                 <li className={`flexCenter ${css.phone}`}>
                     <p>
                         0762712200
